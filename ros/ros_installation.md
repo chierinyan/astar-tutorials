@@ -99,7 +99,7 @@ Sometimes GUI tools can be really helpful, but when you are directly operating r
 
     This will run in foreground, so leave running and open another terminal to continue.
 
-In Container, try `rosrun turtlesim turtlesim-node`
+In Container, try `rosrun turtlesim turtlesim_node`
 
 You should see a GUI window popup.
 

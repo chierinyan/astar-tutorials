@@ -17,11 +17,15 @@
 ---
 
 
+##### ROS = Communication Frameworks + Development Tools + Core Algorithms + Ecosystem
+
+
 ### turtlesim
 
 A toy for testing simple ROS functions
 
-* Start ros master before starting any ros node
+* Start ROS master before starting any ros node
+    > Auto started for `astar-ros` image
     ```sh
     roscore
     ```
@@ -42,7 +46,7 @@ A toy for testing simple ROS functions
 * An executable file within a ROS package
 * A process that carries out a specific task
 * Nodes can be written in different languages, and run on different hosts distributedly
-* Nodes must have unique names. If two nodes with the samename are launched, the previous one is kicked off.
+* Nodes must have unique names. If two nodes with the same name are launched, the previous one is kicked off.
 
 
 ### catkin workspace
@@ -92,7 +96,7 @@ catkin_ws/
 * Basic unit in ROS projects
   * All source code must be placed in package
 * Packages must have unique names
-* Includ source code, configuration, dependencies, message definitions
+* Includes source code, configuration, dependencies, message definitions
 
 
 #### Create package
